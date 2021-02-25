@@ -33,4 +33,8 @@ Old Generation은 Young 영역에서 계속 사용되어 살아남은 객체가 
 Major GC가 이루어지며, Minor GC보다 횟수가 적음
 (Major GC는 Old, Permanent 영역에서 발생하는 GC를 말합니다.)     <br>
 
-Permanent : Class, Method 등의 Code등이 저장되는 영역으로 JVM에 의해 사용됩니다.
+Permanent : Class, Method 등의 Code등이 저장되는 영역으로 JVM에 의해 사용됩니다. 
+또한, Java 8 부터는 Permanent Generation 메모리 영역이 없어지고 Metaspace 영역이 생겼습니다. 기존의 Permanent영역은 Heap영역에 있었지만, 
+Metaspace영역은 Native 메모리 영역에 위치합니다. 그리고 Permanent영역은 Default로 제한된 크기를 갖고있었으나, 
+Metaspace영역은 제한된 크기를 가지고 있지 않아 필요한 만큼 계속 늘어납니다. 
+그 결과 Permanent영역이 Metaspace영역으로 변경되면서 더 큰 메모리 영역을 사용할 수 있게 되었습니다.
