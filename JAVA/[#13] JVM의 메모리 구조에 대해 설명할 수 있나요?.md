@@ -38,3 +38,5 @@ Permanent : Class, Method 등의 Code등이 저장되는 영역으로 JVM에 의
 Metaspace영역은 Native 메모리 영역에 위치합니다. 그리고 Permanent영역은 Default로 제한된 크기를 갖고있었으나, 
 Metaspace영역은 제한된 크기를 가지고 있지 않아 필요한 만큼 계속 늘어납니다. 
 그 결과 Permanent영역이 Metaspace영역으로 변경되면서 더 큰 메모리 영역을 사용할 수 있게 되었습니다.
+
+ 
