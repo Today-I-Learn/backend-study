@@ -21,13 +21,16 @@ JVM의 메모리 구조는 총 5가지 입니다. <br>
 <br>
 
 Heap 영역은 크게 Young Generation, Old Generation 로 나눌수 있습니다. <br>
+
 Young Generation은 새롭게 생성한 객체들이 위치합니다. 대부분의 객체는 금방 접근 불가능한 상태가 되기 때문에, 
 많은 객체가 Young 영역에 생성되었다가 사라집니다. Young Generation은 Eden 1개와 Survivor1,2로 구성됩니다. 
 이 때, Eden은 Object가 heap에 최초로 할당되는 장소이며 Eden영역이 꽉차면 Object의 참조 여부에 따라 Survivor영역으로 넘깁니다.
 Survivor영역에서는 각 영역이 채워지게 되면, 살아남은 객체는 비워진 Survivor로 이동합니다. 이때 참조가 없는 객체들은 Minor GC로 수집 됨
 따라서, 항상 Survivor1과 2중 한 곳은 비어있는 상태입니다.
 (Minor GC는 Eden, Survivor에서 발생하는 GC를 말합니다.) <br>
+
 Old Generation은 Young 영역에서 계속 사용되어 살아남은 객체가 복사되는 영역입니다. Young 영역보다 크게 할당되며,
 Major GC가 이루어지며, Minor GC보다 횟수가 적음
 (Major GC는 Old, Permanent 영역에서 발생하는 GC를 말합니다.)     <br>
+
 Permanent : Class, Method 등의 Code등이 저장되는 영역으로 JVM에 의해 사용됩니다.
