@@ -10,3 +10,10 @@ TreeSet에 객체를 저장하면 자동으로 정렬되는데 부모값과 비�
 같은 Set 컬렉션이지만 HashSet과 TreeSet의 차이점은 HashSet은 해시테이블을 이용하여 구현하기 때문에 그 요소들이 정렬되지 않습니다.
 또한 HashSet의 add, remove, contains 메소드는 일정한 시간복잡도인 O(1)을 갖습니다.
 반면에 TreeSet은 각각의 요소들을 자동으로 정렬시키며 add, remove, contains 메소드의 시간복잡도가 O(logN)을 갖게 됩니다.
+
+[내용 보충]
+
+LinkedHashMap은 HashMap을 확장하는 클래스입니다. LinkedHashMap의 가장 큰 특징은 자료가 입력된 순서를 기억한다는 것입니다.
+HashMap의 경우 데이터 입력되는 순서를 보장하지 않습니다. 그렇기 때문에 HashMap의 모든 데이터를 꺼내기 위해서는 keySet()을 통해 HashMap 전체를 순회해야 합니다.
+즉 반환되는 Set의 동작에서 HashMap의 데이터 입력순서가 보장되지 않기 때문에 이 순서는 Java 버전에 따라 달라질수도 있고 환경에 따라 달라질 수도 있습니다.
+만약 사진을 찍은 사진과 같은 키-값 쌍이 필요하거나 전체 크기를 알지 못하거나 사진을 찍은 순서대로 동영상을 변환해야하는 순서를 알아야 하는 경우들의 경우 LinkedHashMap을 유용하게 사용할 수 있습니다. 
