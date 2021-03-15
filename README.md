@@ -30,3 +30,9 @@
   * 코드를 작성하는 것 외에 GC를 직접 다룰 수있는 방법에는 어떠한 것이 있나요?
 * [[#21] G1 GC에 대해서 설명해주실 수 있나요?](https://github.com/Today-I-Learn/backend-study/blob/develop/JAVA/GC/%5B%2321%5D%20G1%20GC%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%8B%A4%20%EC%88%98%20%EC%9E%88%EB%82%98%EC%9A%94.md)
   * G1 GC의 특징에 대해서 설명해주실 수 있나요?
+
+### Collection
+
+* [[#37] HashMap과 HashTable의 차이점에 대해서 설명해주실 수 있나요?](https://github.com/Today-I-Learn/backend-study/blob/develop/JAVA/Collection/%5B%2337%5D%20HashMap%EA%B3%BC%20HashTable%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%8B%A4%20%EC%88%98%20%EC%9E%88%EB%82%98%EC%9A%94.md)
+* [[#38] Collection 인터페이스에 대해서 설명해주실 수 있나요?](https://github.com/Today-I-Learn/backend-study/blob/develop/JAVA/Collection/%5B%2338%5D%20Collection%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%84%A4%EB%AA%85%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%82%98%EC%9A%94%3F%20.md)
+* [[#45] HashSet과 TreeSet의 차이점에 대해서 설명해주실 수 있나요?](https://github.com/Today-I-Learn/backend-study/blob/develop/JAVA/Collection/%5B%2345%5D%20HashSet%EA%B3%BC%20TreeSet%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94.md)
