@@ -1,10 +1,12 @@
 <div align="center">
   <img src="https://media.geeksforgeeks.org/img-practice/banner/java-backend-development-thumbnail-old.png?v=1613759400" width="50%" height="50%">
   
-  <p>자바 백엔드 개발자로 면접 질문 리스트를 기록하고 학습합니다.</p>
+  <p>자바 백엔드 개발자 면접 질문 리스트를 기록하고 학습합니다.</p>
 </div>
 
 * [Java](##Java)
+  * [JVM](###JVM)
+  * [GC](###GC)
 
 ## Java
 
